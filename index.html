@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
-            h1{
-                border:5px solid blue;
-                background-color:green;
-            }
-        </style>
+
     </head>
     <body>
-        <h1 style="border:5px solid blue;background-color:green;">WEB</h1>
+        <h1 >WEB
+            <input type="button" value="day" 
+            onclick="document.querySelector('body').style.backgroundColor='white';
+            document.querySelector('body').style.color='black';">
+            <input type="button" value="sephia" 
+            onclick="document.querySelector('body').style.backgroundColor='yellow';
+            document.querySelector('body').style.color='gray';">
+            <input type="button" value="night" 
+            onclick="document.querySelector('body').style.backgroundColor='black';
+            document.querySelector('body').style.color='white';">
+        </h1>
         <ol>
             <li>html</li>
             <li>css</li>
